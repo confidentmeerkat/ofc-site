@@ -9,12 +9,12 @@ export default function Home() {
       }}
     >
       <header>
-        <Image alt="ofc-image" src="/logo-black.png" className="h-8" />
+        <img alt="ofc-image" src="/logo-black.png" className="h-8" />
       </header>
       <div
         className="flex justify-center"
       >
-        <Image alt="ofc-image" src="/123.png" />
+        <img alt="ofc-image" src="/123.png" />
       </div>
 
       <div className="flex flex-col justify-center items-center space-y-24 p-8 text-red-900">
@@ -27,21 +27,21 @@ export default function Home() {
 
         <div className="flex lg:w-1/2 w-full md:flex-row flex-col justify-center md:space-x-12 space-y-4 items-center">
           <div className="w-64 flex flex-1 flex-col justify-between">
-            <Image alt="ofc-image" src="/background.png" width="100%" />
+            <img alt="ofc-image" src="/background.png" width="100%" />
             <div className="mt-12">
               <h3 className="text-2xl mt-6">JOIN US ON </h3>
               <div className="flex flex-row justify-start space-x-8 mt-6">
                 <a href="https://twitter.com/oddfriends_club" target="_blank" rel="noreferrer">
-                  <Image alt="ofc-image" src="/twitter-48.png" className="h-16" />
+                  <img alt="ofc-image" src="/twitter-48.png" className="h-16" />
                 </a>
                 <a href="https://discord.com/invite/2X9UGY3qPJ" target="_blank" rel="noreferrer">
-                  <Image alt="ofc-image" src="/discord-new-48.png" className="h-16" />
+                  <img alt="ofc-image" src="/discord-new-48.png" className="h-16" />
                 </a>
                 <a
                   href="https://www.instagram.com/oddfriends.club/"
                   target="_blank" rel="noreferrer"
                 >
-                  <Image alt="ofc-image" src="/instagram-80.png" className="h-16" />
+                  <img alt="ofc-image" src="/instagram-80.png" className="h-16" />
                 </a>
               </div>
             </div>
@@ -57,16 +57,16 @@ export default function Home() {
             <p>NO FAKE ROADMAPS!</p>
             <p>As we are tired of seeing Fake and BS Roadmaps and rugs! </p>
             <p className="flex flex-row">
-              <Image alt="ofc-image" src="/friends-48.png" className="h-6 mr-2" />
+              <img alt="ofc-image" src="/friends-48.png" className="h-6 mr-2" />
               We are on a mission to build the largest friends community on
               Ethereum Blockchain.
             </p>
             <p className="flex flex-row">
-              <Image alt="ofc-image" src="/community96.png" className="h-6 mr-2" />
+              <img alt="ofc-image" src="/community96.png" className="h-6 mr-2" />
               This Project is Completely Community Driven!
             </p>
             <p className="flex flex-row">
-              <Image alt="ofc-image" src="/run-into-men-48.png" className="h-6 mr-2" />
+              <img alt="ofc-image" src="/run-into-men-48.png" className="h-6 mr-2" />
               Get Your Odd Friend and Make New Friends
             </p>
           </div>
@@ -77,38 +77,38 @@ export default function Home() {
             <ul style={{ listStyle: "inside" }} className="space-y-3">
               <li className="flex flex-row">
                 <i>
-                  <Image alt="ofc-image" src="/friends-48.png" className="h-6 mr-2"></Image>
+                  <img alt="ofc-image" src="/friends-48.png" className="h-6 mr-2" />
                 </i>
                 Mint Price: Free + Gas
               </li>
               <li className="flex flex-row">
                 <i>
-                  <Image alt="ofc-image" src="/friends-48.png" className="h-6 mr-2"></Image>
+                  <img alt="ofc-image" src="/friends-48.png" className="h-6 mr-2" />
                 </i>
                 Max 5 mint Per Wallet
               </li>
               <li className="flex flex-row">
                 <i>
-                  <Image alt="friends-svg" src="/friends-48.png" className="h-6 mr-2"></Image>
+                  <img alt="friends-svg" src="/friends-48.png" className="h-6 mr-2" />
                 </i>
                 7.5% Royalties
               </li>
               <li className="flex flex-row">
                 <i>
-                  <Image alt="ofc-image" src="/friends-48.png" className="h-6 mr-2"></Image>
+                  <img alt="ofc-image" src="/friends-48.png" className="h-6 mr-2" />
                 </i>
                 CC0
               </li>
               <li className="flex flex-row">
                 <i>
-                  <Image alt="ofc-image" src="/friends-48.png" className="h-6 mr-2"></Image>
+                  <img alt="ofc-image" src="/friends-48.png" className="h-6 mr-2" />
                 </i>
                 Friends Driven
               </li>
             </ul>
           </div>
           {/* <div className="lg:w-32 w-full flex-1 justify-center items-center flex-shrink-0"> */}
-          <Image alt="ofc-image" src="/ofc.gif" className="max-w-none w-72 m-0" />
+          <img alt="ofc-image" src="/ofc.gif" className="max-w-none w-72 m-0" />
           {/* </div> */}
         </div>
 
@@ -173,17 +173,17 @@ export default function Home() {
       <footer className="bg-gray-800 text-white py-4 flex justify-center items-center flex-col mt-12">
         <div className="flex flex-row justify-start space-x-8 mt-6">
           <a href="https://twitter.com/oddfriends_club" target="_blank" rel="noreferrer">
-            <Image alt="ofc-image" src="/twitter-48.png" className="h-12" />
+            <img alt="ofc-image" src="/twitter-48.png" className="h-12" />
           </a>
           <a href="https://discord.com/invite/2X9UGY3qPJ" target="_blank" rel="noreferrer">
-            <Image alt="ofc-image" src="/discord-new-48.png" className="h-12" />
+            <img alt="ofc-image" src="/discord-new-48.png" className="h-12" />
           </a>
           <a href="https://www.instagram.com/oddfriends.club/" target="_blank" rel="noreferrer">
-            <Image alt="ofc-image" src="/instagram-80.png" className="h-12" />
+            <img alt="ofc-image" src="/instagram-80.png" className="h-12" />
           </a>
         </div>
 
-        <Image alt="ofc-image" src="/logo-white.png" className="w-96" />
+        <img alt="ofc-image" src="/logo-white.png" className="w-96" />
       </footer>
     </div>
   );
