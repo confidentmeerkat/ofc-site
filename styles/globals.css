@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+    background-color: #ffc400;
+}
+
+@font-face {
+  font-family: ChelaOne; /*a name to be used later*/
+  src: url('/ChelaOne-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: JustForFun; /*a name to be used later*/
+  src: url('/JustForFun-Regular.ttf'); /*URL to font*/
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
